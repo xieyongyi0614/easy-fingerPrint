@@ -1,0 +1,35 @@
+# 排除源代码目录
+src/
+tests/
+examples/
+
+# 排除构建配置文件
+webpack.config.js
+rollup.config.js
+tsconfig.json
+
+# 排除其他不必要的文件
+*.log
+*.md
+*.yml
+*.yaml
+*.json
+!.npmrc
+
+# 排除 Node.js 模块和锁定文件
+node_modules/
+package-lock.json
+yarn.lock
+
+# 排除环境配置文件
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 排除编辑器和操作系统生成的文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
