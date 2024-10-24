@@ -1,4 +1,4 @@
-import {  FingerPrintInfo } from './types';
+import { FingerPrintInfo } from './types';
 import { canvasFingerPrint, getAgentInfo } from './utils';
 
 export const generateFingerprint = async (): Promise<FingerPrintInfo> => {
