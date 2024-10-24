@@ -1,0 +1,33 @@
+{
+  "name": "easy-fingerprint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xieyongyi0614/easy-fingerPrint.git"
+  },
+  "author": "corner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xieyongyi0614/easy-fingerPrint/issues"
+  },
+  "homepage": "https://github.com/xieyongyi0614/easy-fingerPrint#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2"
+  }
+}
