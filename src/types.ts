@@ -12,3 +12,9 @@ export interface FingerPrintInfo {
     visitorId: string;
     userAgent: string;
 }
+
+export type GetRealIpAddressCallback = (ip: IpAddresses) => void;
+export interface IpAddresses {
+    ipv4: string;
+    ipv6: string;
+}

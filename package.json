@@ -1,40 +1,47 @@
 {
-  "name": "easy-fingerprint",
-  "version": "1.0.1",
-  "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xieyongyi0614/easy-fingerPrint.git"
-  },
-  "author": "corner",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/xieyongyi0614/easy-fingerPrint/issues"
-  },
-  "homepage": "https://github.com/xieyongyi0614/easy-fingerPrint#readme",
-  "dependencies": {
-    "crypto-js": "^4.2.0",
-    "easy-fingerprint": "^1.0.0"
-  },
-  "files": [
-    "dist",
-    "package.json",
-    "README.md",
-    "LICENSE"
-  ],
-  "devDependencies": {
-    "@eslint/js": "^9.13.0",
-    "@types/crypto-js": "^4.2.2",
-    "eslint": "^8.57.1",
-    "eslint-plugin-react": "^7.37.2",
-    "globals": "^15.11.0",
-    "prettier": "^3.3.3",
-    "typescript-eslint": "^8.11.0"
-  }
+    "name": "easy-fingerprint",
+    "version": "1.0.2",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xieyongyi0614/easy-fingerPrint.git"
+    },
+    "author": "corner",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/xieyongyi0614/easy-fingerPrint/issues"
+    },
+    "homepage": "https://github.com/xieyongyi0614/easy-fingerPrint#readme",
+    "dependencies": {
+        "crypto-js": "^4.2.0",
+        "easy-fingerprint": "^1.0.0"
+    },
+    "keywords": [
+        "easy-fingerPrint",
+        "fingerPrint",
+        "userAgent",
+        "browser fingerPrint",
+        "browser"
+    ],
+    "files": [
+        "dist",
+        "package.json",
+        "README.md",
+        "LICENSE"
+    ],
+    "devDependencies": {
+        "@eslint/js": "^9.13.0",
+        "@types/crypto-js": "^4.2.2",
+        "eslint": "^8.57.1",
+        "eslint-plugin-react": "^7.37.2",
+        "globals": "^15.11.0",
+        "prettier": "^3.3.3",
+        "typescript-eslint": "^8.11.0"
+    }
 }
