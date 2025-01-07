@@ -1,7 +1,6 @@
-import { CanvasFingerPrint } from '../types';
 import { MD5 } from 'crypto-js';
 
-export const canvasFingerPrint = (): Promise<CanvasFingerPrint> => {
+export const canvasFingerPrint = (): Promise<string> => {
     return new Promise((resolve, reject) => {
         const result = { dataURL: '', hash: '' };
         const canvas = document.createElement('canvas');
@@ -46,6 +45,6 @@ export const canvasFingerPrint = (): Promise<CanvasFingerPrint> => {
             result.hash = MD5(result.dataURL).toString();
         }
 
-        resolve(result);
+        resolve(result.hash);
     });
 };

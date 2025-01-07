@@ -28,7 +28,27 @@ npm i easy-fingerPrint
 ```ts
 import { generateFingerprint } from 'easy-fingerPrint';
 
-generateFingerprint().then((fingerprint) => {
-    console.log('fingerprint', fingerprint);
+generateFingerprint().then((fp) => {
+    console.log('fp', fp);
 });
 ```
+
+### API
+
+##### generateFingerprint
+
+| Name           | Type   | Description         |
+| -------------- | ------ | ------------------- |
+| visitorId      | string | 唯一值              |
+| browserName    | string | 浏览器名称          |
+| browserVersion | string | 浏览器版本          |
+| device         | string | 设备                |
+| ip             | string | IP地址（ipv4/ipv6） |
+| os             | string | 系统                |
+| osVersion      | string | 系统版本            |
+| userAgent      | string | userAgent原文       |
+
+### Change Log
+
+-   1.1.0: 返回IP地址参数
+-   1.0.0: Initial release
